@@ -19,6 +19,8 @@ void draw(){
 }
 
 void scale(int x, int y){
-  beginFill(115, 57, 191);
-  bezier(x,y,0,x+15,y+75,30,x+45,y+75,30,x+50,y,0);
+  fill(115, 57, 191);
+  beginShape();
+  bezier(x,y,0,x+15,y+75,30,x+35,y+75,30,x+50,y,0);
+  endShape();
 }
